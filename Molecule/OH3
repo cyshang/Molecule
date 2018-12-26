@@ -1,0 +1,12 @@
+#! /bin/bash
+
+molecule='OH3'
+elem_num=2
+elem_list=( O H )
+atom_num=4
+atom_list=( O H H H )
+
+energy_read='!RHF-UCCSD(T)-F12a'
+zero_point='-76.84440690'
+
+train_set="$MOLECULE_DIR/trainSet/OH3-18971.xyz"

@@ -1,0 +1,18 @@
+name: OH3
+nElem: 2
+elem_list: O H 
+0<->O
+1<->H
+totAtom: 4
+nAtom: 1 3 
+atom_list: 0 1 1 1 
+atomTravlist:
+O: 0 
+H: 1 2 3 
+totBond: 6
+nBondtype: 2
+bondTypelist: O-H H-H 
+nBond: 3 3 
+bondTravlist:
+(0, 1) (0, 2) (0, 3) 
+(1, 2) (1, 3) (2, 3) 
